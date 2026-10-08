@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nexentis — Android development, Android Automotive and modern mobile engineering.">
+  <meta name="theme-color" content="#050708">
+  <title>Nexentis — Android & Automotive Engineering</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#home" aria-label="Nexentis home">
+      <img src="images/logo.svg" alt="Nexentis logo">
+      <span>NEXENTIS</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#expertise">Expertise</a>
+      <a href="#automotive">Automotive</a>
+      <a href="#skills">Skills</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact"><span></span> Available for work</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-grid"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> ANDROID ENGINEERING • AUTOMOTIVE • MOBILE</div>
+        <h1>Building the <em>next</em> generation of Android experiences.</h1>
+        <p class="hero-text">Nexentis is an independent engineering studio focused on high-quality Android applications, Android Automotive OS and connected in-vehicle experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#expertise">Explore expertise <b>↗</b></a>
+          <a class="btn btn-ghost" href="#contact">Start a project</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orb"></div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="hero-terminal">
+          <div><span class="dot green"></span><span class="dot cyan"></span><span class="dot red"></span></div>
+          <code><span>nexentis</span>@android:~$ build --target automotive<br>
+          <i>✓ Kotlin compiler</i><br>
+          <i>✓ Android SDK 35</i><br>
+          <i>✓ AAOS / VHAL</i><br>
+          <strong>BUILD SUCCESSFUL</strong></code>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="expertise">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">01 / EXPERTISE</div>
+          <h2>Engineering where <span>software meets motion.</span></h2>
+        </div>
+        <p>From polished mobile interfaces to production-grade automotive systems, Nexentis focuses on architecture, performance and dependable user experiences.</p>
+      </div>
+
+      <div class="bento">
+        <article class="feature-card android">
+          <div class="card-glow"></div>
+          <div class="card-content">
+            <span class="number">01</span>
+            <div class="icon-box">▣</div>
+            <h3>Android Development</h3>
+            <p>Modern native Android applications built with Kotlin, Jetpack Compose, clean architecture and robust testing.</p>
+            <div class="tags"><span>Kotlin</span><span>Compose</span><span>Coroutines</span><span>MVVM / MVI</span></div>
+          </div>
+          <img src="images/android.svg" alt="" aria-hidden="true">
+        </article>
+
+        <article class="feature-card">
+          <div class="card-content">
+            <span class="number">02</span>
+            <div class="icon-box cyan">⌘</div>
+            <h3>Android Automotive</h3>
+            <p>AAOS applications, media experiences, VHAL integration, system apps and IVI interfaces.</p>
+            <a class="text-link" href="#automotive">Explore AAOS <b>→</b></a>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="card-content">
+            <span class="number">03</span>
+            <div class="icon-box">◈</div>
+            <h3>Architecture</h3>
+            <p>Scalable codebases with clear boundaries, testability and maintainable engineering practices.</p>
+          </div>
+        </article>
+
+        <article class="feature-card wide">
+          <div class="card-content">
+            <span class="number">04</span>
+            <h3>System & Platform Engineering</h3>
+            <p>Privileged apps, media systems, telephony, Bluetooth, USB, CI/CD and deep Android platform integrations.</p>
+            <div class="mini-stats"><div><b>10+</b><small>Years ecosystem</small></div><div><b>35+</b><small>Android APIs</small></div><div><b>24/7</b><small>Engineering mindset</small></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="dark-section" id="automotive">
+      <div class="section automotive-section">
+        <div class="eyebrow cyan-text">02 / ANDROID AUTOMOTIVE</div>
+        <div class="auto-heading">
+          <h2>Android, <span>inside the car.</span></h2>
+          <p>Designing and engineering connected IVI experiences for the road ahead — from media and navigation to system-level integrations.</p>
+        </div>
+
+        <div class="dashboard-art">
+          <img src="images/automotive.svg" alt="Abstract futuristic automotive dashboard">
+          <div class="dashboard-label label-a">AAOS</div>
+          <div class="dashboard-label label-b">VHAL</div>
+          <div class="dashboard-label label-c">IVI</div>
+        </div>
+
+        <div class="capability-grid">
+          <div><b>01</b><h3>Media & Audio</h3><p>Source management, playback, metadata, queue systems and automotive media UX.</p></div>
+          <div><b>02</b><h3>System Apps</h3><p>Privileged applications and platform integrations designed for custom Android builds.</p></div>
+          <div><b>03</b><h3>VHAL Integration</h3><p>Vehicle data flows and hardware abstraction integrations for in-car experiences.</p></div>
+          <div><b>04</b><h3>Multi-display UX</h3><p>Interfaces designed for center displays, clusters and modern multi-screen environments.</p></div>
+          <div><b>05</b><h3>Connectivity</h3><p>Bluetooth, USB, Android Auto and connected-device workflows.</p></div>
+          <div><b>06</b><h3>Performance</h3><p>Profiling, crash analysis, stability improvements and production hardening.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading compact">
+        <div><div class="eyebrow">03 / TOOLBOX</div><h2>Built with <span>modern Android.</span></h2></div>
+        <p>The stack is selected for reliability, maintainability and performance — not hype.</p>
+      </div>
+      <div class="skill-cloud">
+        <span>Kotlin</span><span>Jetpack Compose</span><span>Android SDK</span><span>Coroutines</span><span>Flow</span><span>MVVM</span><span>MVI</span><span>Clean Architecture</span><span>Room</span><span>Retrofit</span><span>OkHttp</span><span>Hilt</span><span>JUnit</span><span>Mockito</span><span>Espresso</span><span>Firebase Crashlytics</span><span>Git</span><span>Jenkins</span><span>CI/CD</span><span>AAOS</span><span>VHAL</span><span>Linphone</span></div>
+    </section>
+
+    <section class="section news-section" id="news">
+      <div class="section-heading">
+        <div><div class="eyebrow">04 / LATEST NEWS</div><h2>What’s happening in <span>Android.</span></h2></div>
+        <a class="text-link" href="#news">View all <b>→</b></a>
+      </div>
+      <div class="filter-bar" id="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="android">Android</button>
+        <button data-filter="automotive">Automotive</button>
+        <button data-filter="jetpack">Jetpack</button>
+        <button data-filter="kotlin">Kotlin</button>
+      </div>
+      <div class="news-grid" id="newsGrid">
+        <article class="news-card" data-tags="android kotlin">
+          <img src="images/news-android.svg" alt="">
+          <div class="news-body"><span>ANDROID</span><small>08 OCT 2026 · 6 MIN READ</small><h3>What modern Android engineering looks like in 2026</h3><p>Architecture, Kotlin, Compose and the engineering practices shaping production Android apps.</p><a href="#contact">Read article →</a></div>
+        </article>
+        <article class="news-card" data-tags="automotive">
+          <img src="images/news-car.svg" alt="">
+          <div class="news-body"><span>AUTOMOTIVE</span><small>02 OCT 2026 · 7 MIN READ</small><h3>AAOS and the evolution of in-car experiences</h3><p>How Android Automotive is changing the architecture of modern infotainment systems.</p><a href="#contact">Read article →</a></div>
+        </article>
+        <article class="news-card" data-tags="jetpack android">
+          <img src="images/news-compose.svg" alt="">
+          <div class="news-body"><span>JETPACK</span><small>26 SEP 2026 · 5 MIN READ</small><h3>Compose: designing UI systems that scale</h3><p>Practical thinking around reusable UI, state management and predictable rendering.</p><a href="#contact">Read article →</a></div>
+        </article>
+        <article class="news-card" data-tags="kotlin android">
+          <img src="images/news-kotlin.svg" alt="">
+          <div class="news-body"><span>KOTLIN</span><small>18 SEP 2026 · 4 MIN READ</small><h3>Kotlin patterns for cleaner Android code</h3><p>Small language features and patterns that make large Android codebases easier to evolve.</p><a href="#contact">Read article →</a></div>
+        </article>
+        <article class="news-card" data-tags="automotive android">
+          <img src="images/news-sdk.svg" alt="">
+          <div class="news-body"><span>AUTOMOTIVE</span><small>11 SEP 2026 · 6 MIN READ</small><h3>Building reliable automotive media systems</h3><p>Source switching, playback state, USB media and resilience in embedded environments.</p><a href="#contact">Read article →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="section cta-inner">
+        <div class="eyebrow"><span class="pulse"></span> LET'S BUILD SOMETHING</div>
+        <h2>Have a complex Android problem?<br><span>Let's solve it.</span></h2>
+        <p>Whether you are building a mobile product, an automotive experience or a system-level Android solution, Nexentis can help turn the technical challenge into a reliable product.</p>
+        <a class="btn btn-primary large" href="mailto:hello@nexentis.co.in">Get in touch <b>↗</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <a class="brand" href="#home"><img src="images/logo.svg" alt=""><span>NEXENTIS</span></a>
+      <p>Android engineering for the next generation of mobile and automotive experiences.</p>
+      <div class="footer-links"><a href="#expertise">Expertise</a><a href="#automotive">Automotive</a><a href="#news">News</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Nexentis. All rights reserved.</span><span>nexentis.co.in</span></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
